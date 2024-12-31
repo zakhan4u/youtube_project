@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex justify-center text-center h-screen text-8xl">
+    <div>
       
-      <h1>Home Page</h1>
+      <h1 className="heading">Home Page</h1>
+      <p className="sub-heading">this is a good learning platform</p>
+  <Button className="text-white bg-gray-300">hello</Button>
     </div>
   );
 }
